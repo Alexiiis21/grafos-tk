@@ -428,7 +428,7 @@ export default function Home() {
                 )}
                 
                 {/* Instrucciones sobre el formato del archivo TXT */}
-                <div className="bg-white rounded-lg shadow-md p-6 mt-8">
+                <div className="bg-white rounded-lg shadow-md p-6 mt-8 text-black">
                     <h2 className="text-xl font-semibold mb-4 text-blue-700">
                         Formato del Archivo de Texto
                     </h2>
@@ -443,9 +443,6 @@ q1,b,q2
 q2,a,q3
 q3,b,q0`}</code>
                     </pre>
-                    <p className="text-gray-600">
-                        Cada línea representa un componente de la 5-tupla. Las líneas de transición especifican el estado de origen, el símbolo leído y el estado destino.
-                    </p>
                 </div>
             </div>
         </main>
