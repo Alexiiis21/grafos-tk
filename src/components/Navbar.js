@@ -9,13 +9,7 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'Inicio', path: '/' },
-    { name: 'Unión', path: '/union' },
-    { name: 'Intersección', path: '/intersection' },
-    { name: 'Complemento', path: '/complement' },
-    { name: 'Resta', path: '/resta' },
-    { name: 'Concatenación', path: '/concat' },
-    { name: 'Estrella de Kleene', path: '/kleene' },
-    { name: 'Cerradura Positiva', path: '/positiva' },
+
   ];
 
   const toggleMenu = () => {
